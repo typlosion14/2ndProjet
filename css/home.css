@@ -1,0 +1,56 @@
+
+.body{
+    font-family: acumin-pro,sans-serif;
+}
+.block ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+
+
+}
+.block ul li {
+    color:white;
+    margin: 25px;
+    float: left;
+    display: block;
+    background-color: #00A9E9;
+    width:20%;
+    overflow: hidden;
+}
+
+.block ul li a {
+    display:block;
+    text-decoration: none;
+    color:white;
+    cursor:pointer;
+}
+
+.block ul li a:hover {
+    background-color: #58D1FF;
+}
+
+.block ul li a p{
+    font-size: 1.3em;
+    margin:auto;
+    text-align: center;
+    padding: 5%;
+}
+.up{
+    position: fixed;
+    margin-top: 38%;
+    margin-left: 95%;
+}
+
+.space{
+    margin-top: 100px;
+}
+
+footer{
+position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,135 @@
+body{
+    background-color: #F1F8F8;
+    font-family: acumin-pro, Arial, sans-serif;
+    display: block;
+
+}
+.offre_content{
+    display: block;
+    width: 50% ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    margin-top: -5em;
+
+}
+.title_line{
+    display: flex;
+    margin-bottom: -1em;
+    margin-left: 14.9em;
+}
+
+.line1 , .line2, .tarif_offer{
+    display: flex;
+    margin-bottom: -1em;
+}
+
+
+.title_line>p{
+    display: block;
+    width: 190px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00A9E9;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    margin:1.2em;
+
+}
+
+
+.line1>p,.offer1,.offer2,.offer3{
+
+    width: 190px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #DBDFDF;
+    font-size: 1.2em;
+    color:  #00A9E9;
+    margin:1.2em;
+}
+
+.line2>p{
+    width: 69%;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #DBDFDF;
+    font-size: 1.2em;
+    color:  #00A9E9;
+    margin:1.2em;
+}
+
+.line1>strong , .line2>strong, .tarif_offer>strong{
+    display: block;
+    text-align: left;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 190px;
+    margin:1.5em;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #00A9E9;
+    margin-left: 20%;
+    margin-bottom: 1em;
+
+}
+.moulaga{
+    font-size: 2em;
+}
+
+ul{
+    list-style: none;
+}
+div ul li{
+    margin-top: 4em;
+}
+#Free,#Perso,#Pro{
+    background-color: #00A9E9;
+    color: white;
+    font-size: 0.8em;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+img{
+    margin: 2em;
+}
+
+footer{
+    background-color: #ECECEC;
+    left:0;
+    position:fixed;
+    width:100%;
+    bottom: 0;
+    text-align: center;
+
+}
+footer ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+footer ul li {
+    margin-left: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 2em;
+    padding-top: 1em;
+
+}
+a{
+    color: #FFFFFF;
+}
+a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}

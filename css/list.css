@@ -1,0 +1,98 @@
+body{
+    padding-bottom: 5%;
+}
+.main{
+    margin:3% auto auto 3%;
+}
+
+
+.liste{
+    color: #333333;
+    display:block;
+    background-color: #DBDFDF;
+    margin: auto;
+    width:60%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom:5%;
+    padding-left: 2%;
+}
+
+.liste ul{
+    list-style-type: none;
+}
+
+.acces ul{
+    list-style-type: none;
+}
+
+.acces{
+    color:white;
+    display:block;
+    float:right;
+    width:30%;
+    padding:15px;
+    margin-right:15px;
+    background-color: #333333;
+}
+.entete input{
+
+}
+.entete p{
+
+    font-size: 2.8em;
+    text-align: center;
+    padding-bottom: 1em;
+
+}
+.entete {
+    clear:left;
+    clear:right;
+}
+
+.main div div ul li input{
+    display:block;
+    float:left;
+    margin-top: 0.2em;
+    margin-left:0.25em;
+    margin-right: 0.25em;
+}
+.main div div ul li p{
+
+    font-size: 1.3em;
+    display:block;
+    float:left;
+
+}
+
+
+.question{
+    padding-top: 1em;
+}
+
+.main div div ul li{
+    font-size: 1.3em;
+    clear: left;
+
+
+}
+
+span{
+    color:red;
+}
+
+
+.up{
+    position: fixed;
+    margin-top: 38%;
+    margin-left: 95%;
+}
+
+.space{
+    margin-top: 100px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
